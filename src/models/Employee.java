@@ -2,7 +2,7 @@ package models;
 
 public class Employee {
     private static int id_gen = 1;
-    private final int id;
+    private int id;
     private String name;
     private String surname;
     private double salary;
